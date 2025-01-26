@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+.top-page {
+  padding: 3rem;
+  height: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.text {
+  justify-content: space-between;
+  color: gray;
+}
+.btn {
+  border-radius: 30px;
+  white-space: none;
+  padding: 6px 20px;
+  color: white;
+  background: linear-gradient(to right, rgb(131, 240, 131), rgb(236, 209, 209));
+  border: none;
+}
+.section-two {
+  background: rgb(247, 243, 243);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+.container-left {
+  margin: 7rem;
+  padding: 10px 10px;
+  width: 50%;
+}
+h1 {
+  font-size: 3.5rem;
+}
+.container-right {
+  position: relative;
+  overflow: hidden;
+}
+.container-right-img1 {
+  height: 100vh;
+  padding-right: 0px;
+}
+.container-right-img2 {
+  position: absolute;
+}
